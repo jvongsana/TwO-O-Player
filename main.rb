@@ -1,6 +1,3 @@
-#player - new player will have lives and a name
-#questions
-#current player and logic will be in main
 
 require './player.rb'
 require './question.rb'
@@ -57,7 +54,6 @@ class Game
     end
   end
 end
-
 
 game = Game.new
 game.play
