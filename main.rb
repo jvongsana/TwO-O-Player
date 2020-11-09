@@ -2,8 +2,8 @@
 #questions
 #current player and logic will be in main
 
-load './player.rb'
-load './question.rb'
+require './player.rb'
+require './question.rb'
 
 class Game
   #current player holder
